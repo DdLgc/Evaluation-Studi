@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Photothèque</title>
+</head>
+<body><img src="./img/pexels-creative-house-12343 .jpg" class="imgFond" alt="img fond d'écran"> 
+  
+  <!--//////////////////////////NAVBAR//////////////////////////////////////  -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+    <div class="container-fluid">
+        <a class="logo" href="#"><img src="./img/logo sans fond.png" width="75" height="75" alt="Logo" class="logo"></a>
+        <div class="titre-nav col-4 ms-1">
+          <h1 class="navbar-text">Association <br>Paquelaisienne</h1>
+        </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"  aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span> 
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a  class="nav-link " aria-current="page" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" id="Photos" href="photos.html" target="_blank">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a  id="Evenement" class="nav-link" href="event.html" target="_blank">Evenement</a>
+            </li>
+            <li class="nav-item">
+              <a id="contact" href="#footer" data-after="Contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+  </nav>
+      <!-- CAROUSEL  -->
+    <div class="container mt-5">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/gala19.JPG" class="d-block vw-100 vh-80 img-fluid" alt="Photothéque">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/photeq20-21.jpg" class="d-block vw-100 vh-30 img-fluid" alt="Photothéque">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/photeq20-211.jpg" class="d-block vw-100 vh-5 img-fluid" alt="Photothéque">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/photeq20-2111.jpg" class="d-block vw-100 vh-80 img-fluid" alt="Photothéque">  <!--TAILLE A REGLER-->
+          </div>
+          <div class="carousel-item">
+            <img src="./img/trainnn.jpg" class="d-block vw-100 vh-80 img-fluid" alt="Photothéque">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/trainn.jpg" class="d-block vw-100 vh-80 img-fluid" alt="Photothéque">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/train.jpg" class="d-block vw-100 vh-80 img-fluid" alt="Photothéque">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/prepagg.jpg" class="d-block vw-100 vh-80 img-fluid" alt="Photothéque">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/prepag.jpg" class="d-block vw-100 vh-80 img-fluid" alt="Photothéque">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/gala 20-21.JPG" class="d-block vw-100 vh-80 img-fluid" alt="Photothéque">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button"data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button"data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+ <!--////////////////////////////// FOOTER /////////////////////////////// -->
+
+<section id="footer">
+  <div class="footer">
+      <div class="brand"><h2><span>D</span>avid <span>L</span>e <span>G</span>ouellec</h2></div>
+      <div class="social-icon ">
+          <div class="social-item">
+              <a target="_blank" href="https://www.facebook.com/twirlingvigneux"><img src="https://img.icons8.com/bubbles/50/000000/facebook.png" alt="facebook icone"/></a>
+          </div>
+          <div class="social-item">
+              <a target="_blank" href="https://github.com/DdLgc"><img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="github icone"/></a>
+          </div>
+          <div class="social-item">
+            <a href="#"><img src="./img/icons8-twitter-entouré-50.png" alt="twitter icone"/></a>
+        </div>
+      </div>
+        <p> © 2022 Copyright <br/><span>D</span>d<span>lg</span>c All rights reserved </p>
+  </div>
+</section>
+
+
+  <!-- bootstrap JS  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <noscript>Attention votre javascript est désactivé, le site ne pourra pas fonctionner correctement</noscript>
+</body>
+</html>
+
+
+  
+  
